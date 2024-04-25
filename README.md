@@ -12,13 +12,17 @@
 ### Server
 
 1. In server folder add .env file with this data
+
+```
    DATABASE_URL=postgres://username:password@localhost:5432/tic_tac_toe
+
    PORT=3001
+```
 
 make sure to use your own username, password, ports of your choice and name DB as tic_tac_toe of if want to change it then do not forget to change it in `database.sql` file as well
 
-2. `npm install`
-3. `node server.js` make sure that you see that `Server running on port`
+1. `npm install`
+2. `node server.js` make sure that you see that `Server running on port`
 
 ### Client
 
@@ -39,7 +43,7 @@ make sure to use your own username, password, ports of your choice and name DB a
 - Persist moves will require quite a lot of logical changes as well.
 - In total I already spent about 4ish hours on this exercise and think it is more than enough for now.
 
-Enjoy reviewing current setup.
+Enjoy reviewing the app.
 
 Thanks,
 Artem
