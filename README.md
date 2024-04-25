@@ -1,11 +1,11 @@
 # Requirements
 
-User can create a new game board
-Allow two (and only two) players to connect to a game board
-Persist game state on the server
-Follow standard rules for tic-tac-toe (or noughts and crosses)
-Display the game result and persist in the database at the end of the game
-Display a ranking of the top five players and allow players to start a new game
+- User can create a new game board
+- Allow two (and only two) players to connect to a game board
+- Persist game state on the server
+- Follow standard rules for tic-tac-toe (or noughts and crosses)
+- Display the game result and persist in the database at the end of the game
+- Display a ranking of the top five players and allow players to start a new game
 
 ## How to start
 
@@ -34,10 +34,10 @@ make sure to use your own username, password, ports of your choice and name DB a
 
 #### Important note
 
-I did not persist the data - all what I did - created tables that defined in database.sql and add some hardcoded data for rankings - to show case that I can use API to retrieve that data in UI.
-Persist proper ranking involve refactoring UI to capture user name and store it.
-Persist moves will require quite a lot of logical changes as well.
-In total I already spent about 4ish hours on this exercise and think it is more than enough for now.
+- I did not persist the data - all what I did - created tables that defined in database.sql and add some hardcoded data for rankings - to show case that I can use API to retrieve that data in UI.
+- Persist proper ranking involve refactoring UI to capture user name and store it.
+- Persist moves will require quite a lot of logical changes as well.
+- In total I already spent about 4ish hours on this exercise and think it is more than enough for now.
 
 Enjoy reviewing current setup.
 
