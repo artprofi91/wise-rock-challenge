@@ -1,0 +1,133 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.intro-button {
+  width: 20vh;
+  height: 10vh;
+  border-radius: 10px;
+  margin: 1em;
+  overflow: clip;
+  font-size: 2vh;
+  min-width: 100px;
+}
+
+label {
+  margin-right: 1em;
+}
+.game-id {
+  position: relative;
+  z-index: 9999;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+.game-id:hover {
+  color: #646cff;
+  transition: 500ms;
+  cursor: pointer;
+}
+
+.faCopy {
+  margin-left: 0.5em;
+}
+
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  min-width: 50vw;
+}
+
+.loading img {
+  width: 150px;
+}
+
+button {
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  width: 15vh;
+  height: 15vh;
+  margin: 0.1vh;
+  background-color: rgba(159, 159, 159, 0.7);
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.board-row {
+  display: flex;
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+    flex-direction: column;
+  }
+  .intro-button {
+    width: 50vw;
+  }
+}
