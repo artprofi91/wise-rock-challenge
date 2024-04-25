@@ -29,8 +29,8 @@ make sure to use your own username, password, ports of your choice and name DB a
 ### Out of scope
 
 1. Unit testing
-2. Proper project breakdown between client and server
-3. Tailwind CSS or similar library for styling
+2. Tailwind CSS or similar library for styling
+3. Data persistence
 
 #### Important note
 
